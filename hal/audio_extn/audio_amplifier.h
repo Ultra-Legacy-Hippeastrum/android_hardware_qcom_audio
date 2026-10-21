@@ -17,6 +17,8 @@
 #ifndef EXTN_AMPLIFIER_H
 #define EXTN_AMPLIFIER_H
 
+#define EXT_AMPLIFIER_ENABLED
+
 #ifndef EXT_AMPLIFIER_ENABLED
 #define amplifier_open(adev) (0)
 #define amplifier_set_input_devices(devices) (0)
